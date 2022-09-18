@@ -10,8 +10,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.danarim.spring-react-app</groupId>
-    <artifactId>spring-react-app</artifactId>
+    <groupId>com.danarim.spring-s3-react-file-upload</groupId>
+    <artifactId>spring-s3-react-file-upload</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <name>spring-react-app</name>
@@ -25,6 +25,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
